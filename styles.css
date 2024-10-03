@@ -4,19 +4,44 @@ h1 {
     background-color: white;
   }
   
-  h1 {
+  }
+  h1#site-title {
     font size: 72px;
     letter-spacing: -3px; 
     margin-top: 0; 
     margin-bottom: .125em; 
     text-align: center; 
   }
-  
+
+  h1#article-title {
+     font-size: 48px; 
+  }
+
   figure img {
    width: 80%; 
    height: auto; 
   } 
+
+  figure.main-image {
+   background: papayawhip; 
+   border-color: rgb(214, 175, 207); 
+   color: #ffff; 
+  }
+
+  figure.section-image {
+  margin-bottom: 32px;
+  max-width: 320px; 
+  }
   
+  figure.section-image.odd {
+    float: right; 
+    margin-left: 20px;
+  }
+
+  figure.section-image.even {
+   float: left; 
+   margin-right: 20px; 
+  }
   p img {
     float: center; 
     max-width: 60%; 
@@ -26,7 +51,7 @@ h1 {
   
 a {
   font-weight: bold; 
-  color: green;  
+  color: rgb(185, 221, 185);  
 }
 
 ul li a{
