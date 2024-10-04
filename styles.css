@@ -50,9 +50,17 @@ h1 {
     margin-bottom: 32px; 
   }
   
+  nav ul li {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid black
+  }
 a {
-  font-weight: bold; 
-  color: rgb(185, 221, 185);  
+  font-weight: normal; 
+  color: rgb(193, 221, 185);  
 }
 
 ul li a{
