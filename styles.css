@@ -18,8 +18,9 @@ h1 {
   }
 
   figure img {
-   width: 80%; 
-   height: auto; 
+  border: 1px solid black
+  width: 80%; 
+  height: auto; 
   } 
 
   figure.main-image {
