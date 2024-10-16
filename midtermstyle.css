@@ -31,6 +31,9 @@
   }
 
   footer#footer {
-    font-size:x-small
+    font-size:x-small; 
+    letter-spacing: -4px; 
+    margin-top: .125em;
+    text-align: left
   }
 
