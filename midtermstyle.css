@@ -25,3 +25,7 @@
    margin-bottom: .125em;
    text-align: center; 
   }
+
+  h1#article-title {
+    font-size: 32px; 
+  }
