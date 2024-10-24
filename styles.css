@@ -35,7 +35,7 @@ h1 {
 
   figure.section-image {
   margin-bottom: 32px;
-  max-width: 324px;
+  max-width: auto;
   height: auto; 
   }
   
