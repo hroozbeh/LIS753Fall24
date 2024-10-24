@@ -3,8 +3,12 @@ h1 {
     font-family: verdana, serif; 
     background-color: white;
   }
-  
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
+  
   h1#site-title {
     font size: 72px;
     letter-spacing: -3px; 
@@ -44,6 +48,7 @@ h1 {
    float: left; 
    margin-right: 20px; 
   }
+
   p img {
     float: center; 
     max-width: 60%; 
@@ -52,18 +57,24 @@ h1 {
   }
   
   nav ul li {
-    display: flex;
-    justify-content: center;
-    gap: 30px; 
     list-style: none;
     padding-left: 0;
     border: 1px solid black
   }
-a {
-  font-weight: normal; 
-  color: rgb(184, 245, 167);  
-}
 
+  @media all and (min-width: 376px) {
+   nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+  } 
+  }
+
+a { 
+  font-weight: normal; 
+  color: rgb(184, 245, 167); 
+}
+  
 ul li a{
 text-decoration: none;
 }
