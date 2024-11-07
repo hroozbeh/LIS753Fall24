@@ -83,11 +83,6 @@ ul li a:hover {
     text-decoration:underline; 
 }
 
-body.dark-mode {
-  background: #010101
-  color: #ffffff;
-}
-
 .container{
   padding: 12px 0;
   width: 96%;
