@@ -118,3 +118,21 @@ ul li a:hover {
 #message.dismissed {
   opacity: 0;
 }
+
+a {
+  font-weight: bold;
+  color:black;
+}
+
+ul li a {
+text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid midnightblue;
+}
