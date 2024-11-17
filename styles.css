@@ -55,12 +55,6 @@ h1 {
     margin-left: 20px;
     margin-bottom: 32px; 
   }
-  
-  nav ul li a {
-    list-style: none;
-    padding-left: 0;
-    border: 1px solid black
-  }
 
   @media all and (min-width: 376px) {
    nav ul {
