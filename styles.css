@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(189, 189, 248); 
+    color: black(189, 189, 248); 
     font-family: verdana, serif; 
     background-color: white;
   }
@@ -68,14 +68,6 @@ a {
   font-weight: normal; 
   color: rgb(184, 245, 167); 
 }
-  
-nav ul li a{
-text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration:underline; 
-}
 
 .container{
   padding: 12px 0;
@@ -118,11 +110,3 @@ a {
   color:black;
 }
 
-nav ul li a{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  list-style: none;
-  padding-left: 0;
-  border: 1px solid midnightblue;
-}
