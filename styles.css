@@ -118,7 +118,7 @@ a {
   color:black;
 }
 
-nav ul {
+nav ul li a {
   display: flex;
   justify-content: center;
   gap: 40px;
