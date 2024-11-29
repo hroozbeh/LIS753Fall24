@@ -40,8 +40,8 @@ h1 {
   footer#page-footer {
     color:black;
     font-family: Verdana;
-    font-size: x-small;
-    margin-top: auto;
+    font-size: 18px;
+    margin-top: 32px;
     margin-bottom: auto;
     padding: auto;
     text-align: left;
