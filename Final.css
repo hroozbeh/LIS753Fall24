@@ -8,7 +8,7 @@ h1 {
   }
   
   figure img {
-    width: 40%;
+    max-width: 100%;
     height: auto; 
     display: block;
     margin-left: auto; 
